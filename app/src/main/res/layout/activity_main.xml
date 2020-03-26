@@ -21,13 +21,15 @@
     <TextView
         android:textColor="#ffffff"
         android:background="#B3A527"
+        app:layout_constraintLeft_toRightOf="@id/textview1"
         app:layout_constraintRight_toLeftOf="@id/textview1"
+        app:layout_constraintBottom_toTopOf="@+id/textview1"
         android:textSize="30dp"
-       app:layout_constraintBottom_toTopOf="@+id/textview1"
         android:text="view 2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
+        app:layout_constraintTop_toBottomOf="@id/textview1"
         app:layout_constraintLeft_toRightOf="@id/textview1"
         app:layout_constraintBottom_toTopOf="@id/textview1"
         android:background="#673AB7"
@@ -37,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
+        app:layout_constraintBottom_toTopOf="@id/textview1"
         app:layout_constraintRight_toLeftOf="@id/textview1"
         app:layout_constraintTop_toBottomOf="@id/textview1"
         android:textColor="#ffffff"
@@ -46,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
+        app:layout_constraintRight_toLeftOf="@id/textview1"
         app:layout_constraintLeft_toRightOf="@id/textview1"
         app:layout_constraintTop_toBottomOf="@id/textview1"
         android:background="#03A9F4"
